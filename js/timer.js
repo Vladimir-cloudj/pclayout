@@ -45,9 +45,17 @@ const updateTimer = () => {
         try {
             clearInterval(interval)
             daysBlock.textContent = '00';
+            daysBlock.nextElementSibling.textContent = 'дней';
+            daysBlock.style.color = 'red';
             hoursBlock.textContent = "00";
+            hoursBlock.nextElementSibling.textContent = 'часов';
+            hoursBlock.style.color = 'red';
             minutesBlock.textContent = '00';
+            minutesBlock.style.color = 'red';
+            minutesBlock.nextElementSibling.textContent = 'минут';
             secondsBlock.textContent = '00';
+            secondsBlock.style.color = 'red';
+            secondsBlock.nextElementSibling.textContent = 'секунд';
         } catch (error) {
             console.log(error)
         }
