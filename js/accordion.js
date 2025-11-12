@@ -1,4 +1,5 @@
-const contents = document.querySelectorAll(".program-line__content");
+const accordion = () => {
+    const contents = document.querySelectorAll(".program-line__content");
 
 contents.forEach((element) => {
     const title = element.querySelector(".program-line__title");
@@ -14,3 +15,6 @@ contents.forEach((element) => {
         description.classList.toggle("active")
     })
 })
+}
+
+accordion()
