@@ -12,11 +12,11 @@ const modal = () => {
       position: absolute;
       top: 15px;
       right: 15px;
-      width: 30px;
-      height: 30px;
+      width: 45px;
+      height: 45px;
       background: transparent;
       border: none;
-      font-size: 24px;
+      font-size: 36px;
       color: #fff;
       cursor: pointer;
       opacity: 0.7;
